@@ -735,7 +735,7 @@
           <XPathExtractor guiclass="XPathExtractorGui" testclass="XPathExtractor" testname="XPath Extractor (flight)" enabled="true">
             <stringProp name="XPathExtractor.default"></stringProp>
             <stringProp name="XPathExtractor.refname">price</stringProp>
-            <stringProp name="XPathExtractor.matchNumber">-1</stringProp>
+            <stringProp name="XPathExtractor.matchNumber">0</stringProp>
             <stringProp name="XPathExtractor.xpathQuery">//input[@name=&apos;price&apos;]/@value</stringProp>
             <boolProp name="XPathExtractor.validate">false</boolProp>
             <boolProp name="XPathExtractor.tolerant">true</boolProp>
@@ -746,7 +746,7 @@
           <XPathExtractor guiclass="XPathExtractorGui" testclass="XPathExtractor" testname="XPath Extractor (price)" enabled="true">
             <stringProp name="XPathExtractor.default"></stringProp>
             <stringProp name="XPathExtractor.refname">flight</stringProp>
-            <stringProp name="XPathExtractor.matchNumber">-1</stringProp>
+            <stringProp name="XPathExtractor.matchNumber">0</stringProp>
             <stringProp name="XPathExtractor.xpathQuery">//input[@name=&apos;flight&apos;]/@value</stringProp>
             <boolProp name="XPathExtractor.validate">false</boolProp>
             <boolProp name="XPathExtractor.tolerant">true</boolProp>
@@ -757,7 +757,7 @@
           <XPathExtractor guiclass="XPathExtractorGui" testclass="XPathExtractor" testname="XPath Extractor (airline)" enabled="true">
             <stringProp name="XPathExtractor.default"></stringProp>
             <stringProp name="XPathExtractor.refname">airline</stringProp>
-            <stringProp name="XPathExtractor.matchNumber">-1</stringProp>
+            <stringProp name="XPathExtractor.matchNumber">0</stringProp>
             <stringProp name="XPathExtractor.xpathQuery">//input[@name=&apos;airline&apos;]/@value</stringProp>
             <boolProp name="XPathExtractor.validate">false</boolProp>
             <boolProp name="XPathExtractor.tolerant">true</boolProp>
@@ -785,21 +785,21 @@
               </elementProp>
               <elementProp name="airline" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">${airline_1}</stringProp>
+                <stringProp name="Argument.value">${airline}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">airline</stringProp>
               </elementProp>
               <elementProp name="price" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">${price_1}</stringProp>
+                <stringProp name="Argument.value">${price}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">price</stringProp>
               </elementProp>
               <elementProp name="flight" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">${flight_1}</stringProp>
+                <stringProp name="Argument.value">${flight}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">flight</stringProp>

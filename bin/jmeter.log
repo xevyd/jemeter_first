@@ -1,0 +1,47 @@
+2020-09-18 17:39:39,567 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-09-18 17:39:39,575 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-09-18 17:39:39,576 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-09-18 17:39:39,579 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-09-18 17:39:39,579 INFO o.a.j.JMeter: Version 5.1 r1853635
+2020-09-18 17:39:39,579 INFO o.a.j.JMeter: java.version=1.8.0_261
+2020-09-18 17:39:39,579 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2020-09-18 17:39:39,580 INFO o.a.j.JMeter: os.name=Windows 10
+2020-09-18 17:39:39,580 INFO o.a.j.JMeter: os.arch=x86
+2020-09-18 17:39:39,580 INFO o.a.j.JMeter: os.version=10.0
+2020-09-18 17:39:39,580 INFO o.a.j.JMeter: file.encoding=Cp1251
+2020-09-18 17:39:39,580 INFO o.a.j.JMeter: java.awt.headless=null
+2020-09-18 17:39:39,580 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-09-18 17:39:39,580 INFO o.a.j.JMeter: Available Processors =8
+2020-09-18 17:39:39,582 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-09-18 17:39:39,582 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-09-18 17:39:39,582 INFO o.a.j.JMeter: JMeterHome=C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1
+2020-09-18 17:39:39,582 INFO o.a.j.JMeter: user.dir  =C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2020-09-18 17:39:39,583 INFO o.a.j.JMeter: PWD       =C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1\bin
+2020-09-18 17:39:50,686 INFO o.a.j.JMeter: IP: 192.168.168.129 Name: DESKTOP-K3V31HM FullName: 192.168.168.129
+2020-09-18 17:39:50,836 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-09-18 17:39:50,850 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-09-18 17:39:50,850 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-09-18 17:39:50,899 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-09-18 17:39:51,322 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-09-18 17:39:51,322 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-09-18 17:39:52,635 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-18 17:39:52,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-18 17:39:52,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-18 17:39:52,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-18 17:39:52,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-09-18 17:39:52,636 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-09-18 17:39:52,780 INFO o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false, try another way.
+2020-09-18 17:39:52,962 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files (x86)\Java\jre1.8.0_261\bin\keytool'
+2020-09-18 17:39:52,963 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1\bin\proxyserver.jks
+2020-09-18 17:39:53,069 INFO o.a.j.s.FileServer: Default base='C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1\bin'
+2020-09-18 17:39:53,544 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-09-18 17:39:53,544 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-09-18 17:39:53,544 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-09-18 17:39:53,544 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-09-18 17:40:28,883 INFO o.a.j.g.a.Load: Loading file: C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1\bin\test0.jmx
+2020-09-18 17:40:28,883 INFO o.a.j.s.FileServer: Set new base='C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1\bin'
+2020-09-18 17:40:28,966 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-09-18 17:40:28,974 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-09-18 17:40:28,976 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-09-18 17:40:28,978 INFO o.a.j.s.SaveService: Loading file: C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1\bin\test0.jmx
+2020-09-18 17:40:29,122 INFO o.a.j.s.FileServer: Set new base='C:\Users\user\Downloads\apache-jmeter-5.1\apache-jmeter-5.1\bin'
