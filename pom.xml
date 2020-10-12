@@ -13,32 +13,25 @@
         <performancetest.script>mantistest.jmx</performancetest.script>
         <name.test>mantisTest</name.test>
         <dir>${name.test}-${maven.build.timestamp}</dir>
+        <appurl>ubuntuserv</appurl>
+        <usersfile>${project.basedir}/src/test/jmeter/testdata/mantis_users_2.csv</usersfile>
+        <throughput>2.0</throughput>
     </properties>
     <profiles>
         <profile>
             <id>capacity</id>
             <properties>
-                <appurl>ubuntuserv</appurl>
                 <threads>40</threads>
-                <initialdelay>0</initialdelay>
                 <startuptime>1800</startuptime>
                 <holdload>60</holdload>
-                <shutdowntime>5</shutdowntime>
-                <throughput>2.0</throughput>
-                <usersfile>mantis_users_2.csv</usersfile>
             </properties>
         </profile>
         <profile>
             <id>performance</id>
             <properties>
-                <appurl>ubuntuserv</appurl>
                 <threads>14</threads>
-                <initialdelay>0</initialdelay>
                 <startuptime>180</startuptime>
                 <holdload>3600</holdload>
-                <shutdowntime>5</shutdowntime>
-                <throughput>2.0</throughput>
-                <usersfile>mantis_users_2.csv</usersfile>
             </properties>
         </profile>
     </profiles>
@@ -89,10 +82,8 @@
                     <propertiesUser>
                         <appurl>${appurl}</appurl>
                         <threads>${threads}</threads>
-                        <initialdelay>${initialdelay}</initialdelay>
                         <startuptime>${startuptime}</startuptime>
                         <holdload>${holdload}</holdload>
-                        <shutdowntime>${shutdowntime}</shutdowntime>
                         <throughput>${throughput}</throughput>
                         <usersfile>${usersfile}</usersfile>
                     </propertiesUser>
