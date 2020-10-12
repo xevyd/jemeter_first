@@ -1,3 +1,2 @@
-*.png
-*.jtl
-backups/*
+/target
+.idea/
