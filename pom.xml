@@ -14,7 +14,6 @@
         <name.test>mantisTest</name.test>
         <dir>${name.test}-${maven.build.timestamp}</dir>
         <appurl>ubuntuserv</appurl>
-        <usersfile>${project.basedir}/src/test/jmeter/testdata/mantis_users_2.csv</usersfile>
         <throughput>2.0</throughput>
     </properties>
     <profiles>
@@ -85,7 +84,6 @@
                         <startuptime>${startuptime}</startuptime>
                         <holdload>${holdload}</holdload>
                         <throughput>${throughput}</throughput>
-                        <usersfile>${usersfile}</usersfile>
                     </propertiesUser>
                 </configuration>
             </plugin>
